@@ -1,0 +1,195 @@
+
+*,
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section>.vp1 {
+    display: flex;
+    padding-top: 20vh;
+    background-color: #CCEDD2;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+.white{
+    color: #EFFCEF;
+}
+
+section>.vp1>.text {
+    font-weight: 700;
+    font-size: 8vmin;
+    width: 35vw;
+}
+
+section>.vp1>.text>a>img {
+    margin-top: 15vh;
+    width: 15vw;
+}
+
+section>.vp2 {
+    display: flex;
+    padding-top: 20vh;
+    background-color:#EFFCEF;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+}
+section>.vp2>.card>img{
+    height: 25vmin;
+    margin-bottom: 15%;
+}
+section>.vp2>.card>.text{
+    /* background: #000; */
+    padding-bottom: 5vmin;
+}
+
+.card {
+    width: 50vmin;
+    height: 50vmin;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+section>.vp3 {
+    display: flex;
+    background-color: #EFFCEF;
+    padding-top: 20vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-origin {
+    width: 100vw;
+    height: 80vh;
+    background-color: #7DC283;
+    display: flex;
+    justify-content: space-between;
+}
+
+section>.vp3>.card-origin>.text {
+    background-color: #7DC283;
+    padding: 10vh 15vh;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section>.vp3>.card-origin>.text>p {
+    font-size: 4vh;
+}
+
+section>.vp3>.card-origin>.text>h2 {
+    font-size: 6vh;
+    font-weight: 600;
+}
+
+section>.vp3>.card-origin>.text>span {
+    font-family: sans-serif;
+    font-size: 16vh;
+    font-weight: 900;
+}
+
+section>.vp3>.card-origin>.gambar {
+    width: 48vw;
+    height: 80vh;
+}
+
+section>.vp3>.card-origin>.gambar>img {
+    object-fit: cover;
+    width: 50vw;
+    height: 80vh;
+}
+
+section>.vp4 {
+    background-color: #EFFCEF;
+    width: 100%;
+    height: 100vh;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section>.vp4>.card {
+    height: 30vh;
+    width: 65vw;
+    padding: 3vh 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section>.vp4>.card>.text {
+    text-align: start;
+}
+
+button {
+    
+    position: relative;
+    display: inline-block;
+    height: 10vh;
+    width: 30vh;
+    margin: 15px;
+    padding: 15em 30em;
+    text-align: center;
+    font-size: 18vh;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #7DC283;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #7DC283;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #7DC283;
+}
+
+button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #7DC283;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+span{
+    font-weight: 700;
+}
+
+section>.vp4>marquee>img{
+    width:15vmax;
+
+}
+
+footer>.wrap {
+    background-color: #7DC283;
+    width: 100%;
+    height: 45vh;
+    padding: 8vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer>.wrap >.text{
+    color: #EFFCEF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vmin;
+
+}
